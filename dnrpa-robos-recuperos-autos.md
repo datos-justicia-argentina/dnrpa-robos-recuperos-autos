@@ -29,7 +29,7 @@ Recursos disponibles
 
 -   **Nombre del archivo:** dnrpa-robos-recuperos-autos-AAAA-MM.csv
 
--   **Descripción del contenido:** se detalla la cantidad de autos con denuncia de robo o hurto o comunicación de recupero por año, mes y provincia
+-   **Descripción del contenido:** se detallan las denuncias de robo o hurto y las comunicaciones de recupero
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
