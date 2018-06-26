@@ -37,39 +37,39 @@ Recursos disponibles
 
 ### Campos del recurso
 
--   **tramite\_tipo (string):** tipo de trámite realizado. Puede tomar los valores
+-   **tramite_tipo (string):** tipo de trámite realizado. Puede tomar los valores
 
     -   **Denuncia de robo o hurto**
 
     -   **Comunicación de recupero**
 
--   **tramite\_fecha (date):** fecha del trámite en la cual se perfecciona el trámite. Formato AAAA-MM-DD.
+-   **tramite_fecha (date):** fecha del trámite en la cual se perfecciona el trámite. Formato AAAA-MM-DD
 
--   **fecha\_inscripcion\_inicial (date):** fecha de inscripción inicial. Formato AAAA-MM-DD.
+-   **fecha_inscripcion_inicial (date):** fecha de inscripción inicial. Formato AAAA-MM-DD
 
--   **registro\_seccional\_codigo (int):** código del Registro Seccional en que se efectuó el trámite. Los códigos de Registros Seccionales están organizados por provincia y competencia.
+-   **registro_seccional_codigo (int):** código del Registro Seccional en que se efectuó el trámite. Los códigos de Registros Seccionales están organizados por provincia y competencia
 
--   **registro\_seccional\_descripcion (string):** nombre del Registro Seccional en que se efectuó el trámite. Generalmente nombre refiere a la localización del Registro Seccional. No siempre coincide con la localidad del domicilio del titular del automotor.
+-   **registro_seccional_descripcion (string):** nombre del Registro Seccional en que se efectuó el trámite. Generalmente nombre refiere a la localización del Registro Seccional. No siempre coincide con la localidad del domicilio del titular del automotor
 
--   **registro\_seccional\_provincia (string):** provincia donde se localiza el Registro Seccional en que se inscribió el trámite. Corresponde asimismo a la provincia del domicilio del primer titular de la inscripción o de la guarda habitual del dominio.
+-   **registro_seccional_provincia (string):** provincia donde se localiza el Registro Seccional en que se inscribió el trámite. Corresponde asimismo a la provincia del domicilio del primer titular de la inscripción o de la guarda habitual del dominio
 
--   **automotor\_origen (string):** corresponde al origen del vehículo. Puede tomar los valores I Importado, N Nacional o P Protocolo 21, que se rigen por los aranceles de los automotores nacionales pero se inscriben con el certificado de importación.
+-   **automotor_origen (string):** corresponde al origen del vehículo. Puede tomar los valores I Importado, N Nacional o P Protocolo 21, que se rigen por los aranceles de los automotores nacionales pero se inscriben con el certificado de importación
 
--   **automotor\_tipo\_codigo (string):** código del tipo del automotor.
+-   **automotor_tipo_codigo (string):** código del tipo del automotor
 
--   **automotor\_tipo\_descripcion (string):** descripción del tipo del automotor. Puede tomar los valores sedán, pick-up, camión, semirremolque, todo terreno, minibús, etc.
+-   **automotor_tipo_descripcion (string):** descripción del tipo del automotor. Puede tomar los valores sedán, pick-up, camión, semirremolque, todo terreno, minibús, etc.
 
--   **automotor\_marca\_codigo (string):** código de la marca del automotor.
+-   **automotor_marca_codigo (string):** código de la marca del automotor
 
--   **automotor\_marca\_descripcion (string):** descripción de la marca del automotor.
+-   **automotor_marca_descripcion (string):** descripción de la marca del automotor
 
--   **automotor\_modelo\_codigo (string):** código del modelo del automotor.
+-   **automotor_modelo_codigo (string):** código del modelo del automotor
 
--   **automotor\_modelo\_descripcion (string):** descripción del modelo del automotor.
+-   **automotor_modelo_descripcion (string):** descripción del modelo del automotor
 
--   **automotor\_uso\_codigo (string):** código de uso del automotor.
+-   **automotor_uso_codigo (string):** código de uso del automotor
 
--   **automotor\_uso\_descripcion (string):** descripción del uso declarado del automotor. Puede tomar los valores
+-   **automotor_uso_descripcion (string):** descripción del uso declarado del automotor. Puede tomar los valores
 
     -   Privado
 
@@ -77,7 +77,7 @@ Recursos disponibles
 
     -   No declarado
 
--   **titular\_tipo\_persona (string):** tipo de persona del primer titular declarado. Puede tomar los valores
+-   **titular_tipo_persona (string):** tipo de persona del primer titular declarado. Puede tomar los valores
 
     -   Física
 
@@ -85,11 +85,11 @@ Recursos disponibles
 
     -   No identificada
 
--   **titular\_domicilio\_localidad (string):** localidad del domicilio del primer titular declarado.
+-   **titular_domicilio_localidad (string):** localidad del domicilio del primer titular declarado
 
--   **titular\_domicilio\_provincia (string):** provincia del domicilio del primer titular declarado.
+-   **titular_domicilio_provincia (string):** provincia del domicilio del primer titular declarado
 
--   **titular\_sexo (string):** sexo del primer titular declarado. Puede tomar los valores
+-   **titular_sexo (string):** sexo del primer titular declarado. Puede tomar los valores
 
     -   Masculino (en caso de persona física)
 
@@ -99,11 +99,20 @@ Recursos disponibles
 
     -   No aplica (en caso de persona jurídica)
 
--   **titular\_año\_nacimiento (int):** sexo del primer titular declarado.
+-   **titular_año_nacimiento (int):** sexo del primer titular declarado
 
--   **titular\_pais\_nacimiento (string):** país de nacimiento del primer titular declarado. En el caso de personas jurídicas toma el valor "No aplica".
+-   **titular_pais_nacimiento (string):** país de nacimiento del primer titular declarado. En el caso de personas jurídicas toma el valor "No aplica".
 
--   **titular\_porcentaje\_titularidad (int):** porcentaje de titularidad.
+-   **titular_porcentaje_titularidad (int):** porcentaje de titularidad
+
+### DNRPA. Robos y recuperos de autos AAAA
+
+-   **Nombre del archivo:** dnrpa-robos-recuperos-autos-AAAA.zip
+
+-   **Descripción del contenido:** archivo comprimido correspondiente al año AAAA con los archivos publicados en el portal datos.jus.gob.ar durante dicho año
+
+-   **Formato:** Zip
+
 
 ### Notas
 
