@@ -89,7 +89,7 @@ Recursos disponibles
 
 -   **titular_domicilio_provincia (string):** provincia del domicilio del primer titular declarado
 
--   **titular_sexo (string):** sexo del primer titular declarado. Puede tomar los valores
+-   **titular_genero (string):** género del primer titular declarado. Puede tomar los valores
 
     -   Masculino (en caso de persona física)
 
