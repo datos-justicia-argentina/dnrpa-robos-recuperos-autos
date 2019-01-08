@@ -1,7 +1,7 @@
 DNRPA. Robos y recuperos de Autos
 =================================
 
-En este cuerpo de datos se detallan los datos de vehículos con denuncia de robo o comunicación de recupero. Los trámites de denuncia de robo o hurto y comunicación de recupero se realizan en los Registros Seccionales de la Propiedad del Automotor y Créditos Prendarios dependientes de la Dirección Nacional de Registros Nacionales de la Propiedad Automotor y Créditos Prendarios, una vez efectuada la denuncia policial o judicial. Se consideran automotores: automóviles, camiones, inclusive los llamados tractores para semirremolque, camionetas, rurales, jeeps, furgones de reparto, ómnibus, microómnibus y colectivos, sus respectivos remolques y acoplados, todos ellos aun cuando no estuvieran carrozados.
+En este conjunto de datos se detallan los datos de vehículos con denuncia de robo o comunicación de recupero. Los trámites de denuncia de robo o hurto y comunicación de recupero se realizan en los Registros Seccionales de la Propiedad del Automotor y Créditos Prendarios dependientes de la Dirección Nacional de Registros Nacionales de la Propiedad Automotor y Créditos Prendarios, una vez efectuada la denuncia policial o judicial. Se consideran automotores: automóviles, camiones, inclusive los llamados tractores para semirremolque, camionetas, rurales, jeeps, furgones de reparto, ómnibus, microómnibus y colectivos, sus respectivos remolques y acoplados, todos ellos aun cuando no estuvieran carrozados.
 
 http://datos.jus.gob.ar/dataset/robos-recuperos-de-autos
 
@@ -33,7 +33,7 @@ Recursos disponibles
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:** datos de vehículos con denuncia de robo o comunicación de recupero desde el 01-01-2018 a la fecha consignada como "Datos actualizados al"
+-   **Rango temporal:** denuncias de robo o hurto y las comunicaciones de recupero desde el 01-01-2018 a la fecha consignada como "Datos actualizados al"
 
 ### Campos del recurso
 
@@ -43,7 +43,7 @@ Recursos disponibles
 
     -   **Comunicación de recupero**
 
--   **tramite_fecha (date):** fecha del trámite en la cual se perfecciona el trámite. Formato AAAA-MM-DD
+-   **tramite_fecha (date):** fecha en la cual se perfecciona el trámite. Formato AAAA-MM-DD
 
 -   **fecha_inscripcion_inicial (date):** fecha de inscripción inicial. Formato AAAA-MM-DD
 
@@ -53,7 +53,9 @@ Recursos disponibles
 
 -   **registro_seccional_provincia (string):** provincia donde se localiza el Registro Seccional en que se inscribió el trámite. Corresponde asimismo a la provincia del domicilio del primer titular de la inscripción o de la guarda habitual del dominio
 
--   **automotor_origen (string):** corresponde al origen del vehículo. Puede tomar los valores I Importado, N Nacional o P Protocolo 21, que se rigen por los aranceles de los automotores nacionales pero se inscriben con el certificado de importación
+-   **automotor_origen (string):** corresponde al origen del vehículo. Puede tomar los valores I - Importado, N - Nacional o P - Protocolo 21, que se rigen por los aranceles de los automotores nacionales pero se inscriben con el certificado de importación
+
+-   **automotor_anio_modelo (int):** año en que se fabricó el modelo del automotor
 
 -   **automotor_tipo_codigo (string):** código del tipo del automotor
 
@@ -99,7 +101,7 @@ Recursos disponibles
 
     -   No aplica (en caso de persona jurídica)
 
--   **titular_año_nacimiento (int):** sexo del primer titular declarado
+-   **titular_anio_nacimiento (int):** anio de nacimiento del primer titular declarado
 
 -   **titular_pais_nacimiento (string):** país de nacimiento del primer titular declarado. En el caso de personas jurídicas toma el valor "No aplica".
 
