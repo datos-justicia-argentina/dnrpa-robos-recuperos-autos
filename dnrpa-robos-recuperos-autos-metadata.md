@@ -25,9 +25,9 @@ Características
 Recursos disponibles
 --------------------
 
-### DNRPA. Robos y recuperos de autos AAAA-MM
+### DNRPA. Robos y recuperos de autos - AAAAMM
 
--   **Nombre del archivo:** dnrpa-robos-recuperos-autos-AAAA-MM.csv
+-   **Nombre del archivo:** dnrpa-robos-recuperos-autos-AAAAMM.csv
 
 -   **Descripción del contenido:** se detallan las denuncias de robo o hurto y las comunicaciones de recupero
 
