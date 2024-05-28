@@ -1,7 +1,7 @@
 DNRPA. Robos y recuperos de Autos
 =================================
 
-En este conjunto de datos se detallan los datos de vehículos con denuncia de robo o comunicación de recupero. Los trámites de denuncia de robo o hurto y comunicación de recupero se realizan en los Registros Seccionales de la Propiedad del Automotor y Créditos Prendarios dependientes de la Dirección Nacional de los Registros Nacionales de la Propiedad Automotor y Créditos Prendarios, una vez efectuada la denuncia policial o judicial. Se consideran automotores: automóviles, camiones, inclusive los llamados tractores para semirremolque, camionetas, rurales, jeeps, furgones de reparto, ómnibus, microómnibus y colectivos, sus respectivos remolques y acoplados, todos ellos aun cuando no estuvieran carrozados.
+En este conjunto de datos se detallan los datos de vehículos con denuncia de robo o comunicación de recupero. Los trámites de denuncia de robo o hurto y comunicación de recupero se realizan en los Registros Seccionales de la Propiedad del Automotor y Créditos Prendarios dependientes de la Dirección Nacional de los Registros Nacionales de la Propiedad del Automotor y Créditos Prendarios, una vez efectuada la denuncia policial o judicial. Se consideran automotores: automóviles, camiones, inclusive los llamados tractores para semirremolque, camionetas, rurales, jeeps, furgones de reparto, ómnibus, microómnibus y colectivos, sus respectivos remolques y acoplados, todos ellos aun cuando no estuvieran carrozados.
 
 http://datos.jus.gob.ar/dataset/robos-recuperos-de-autos
 
